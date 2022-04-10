@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name 15650122601000)(type Legacy)(uri ${KIPRJMOD}/kicad-library/HARTING_15650122601000/15650122601000.lib)(options "")(descr ""))
+  (lib (name PJ-036AH-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/kicad-library/PJ-036AH-SMT-TR/PJ-036AH-SMT-TR.lib)(options "")(descr ""))
+  (lib (name ADS1219IPWR)(type Legacy)(uri ${KIPRJMOD}/kicad-library/ADS1219IPWR/ADS1219IPWR.lib)(options "")(descr ""))
+  (lib (name LSF0204DPWR)(type Legacy)(uri ${KIPRJMOD}/kicad-library/LSF0204DPWR/LSF0204DPWR.lib)(options "")(descr ""))
+  (lib (name B3FS-1010P)(type Legacy)(uri ${KIPRJMOD}/kicad-library/B3FS-1010/B3FS-1010P.lib)(options "")(descr ""))
+)

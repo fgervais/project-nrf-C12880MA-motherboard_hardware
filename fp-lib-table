@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name HARTING_15650122601000)(type KiCad)(uri ${KIPRJMOD}/kicad-library/HARTING_15650122601000)(options "")(descr ""))
+  (lib (name PJ-036AH-SMT-TR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/PJ-036AH-SMT-TR)(options "")(descr ""))
+  (lib (name ADS1219IPWR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/ADS1219IPWR)(options "")(descr ""))
+  (lib (name LSF0204DPWR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/LSF0204DPWR)(options "")(descr ""))
+  (lib (name B3FS-1010)(type KiCad)(uri ${KIPRJMOD}/kicad-library/B3FS-1010)(options "")(descr ""))
+)
