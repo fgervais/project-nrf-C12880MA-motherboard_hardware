@@ -4,4 +4,5 @@
   (lib (name ADS1219IPWR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/ADS1219IPWR)(options "")(descr ""))
   (lib (name LSF0204DPWR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/LSF0204DPWR)(options "")(descr ""))
   (lib (name B3FS-1010)(type KiCad)(uri ${KIPRJMOD}/kicad-library/B3FS-1010)(options "")(descr ""))
+  (lib (name 1702473)(type KiCad)(uri ${KIPRJMOD}/kicad-library/1702473)(options "")(descr ""))
 )
