@@ -844,8 +844,6 @@ Text Notes 4000 7200 0    50   ~ 0
 I2C address: 0x40 || 0x44
 Wire Wire Line
 	1250 5450 1750 5450
-Text Label 1250 5450 0    50   ~ 0
-ADC_INPUT
 $Comp
 L power:VDD #PWR04
 U 1 1 627D9AD2
@@ -1241,4 +1239,6 @@ Text Notes 600  4150 0    50   ~ 0
 Video ADC
 Text Notes 7050 4150 0    50   ~ 0
 Level Shifter
+Text Label 1250 5450 0    50   ~ 0
+VIDEO
 $EndSCHEMATC
