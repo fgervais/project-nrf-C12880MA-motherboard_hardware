@@ -692,9 +692,9 @@ Wire Wire Line
 	7550 1200 7700 1200
 Wire Wire Line
 	7550 1300 7700 1300
-Text Label 2350 2550 2    50   ~ 0
+Text Label 2500 2550 2    50   ~ 0
 RX
-Text Label 2350 2650 2    50   ~ 0
+Text Label 2500 2650 2    50   ~ 0
 TX
 $Comp
 L power:VDD #PWR015
@@ -739,13 +739,13 @@ Wire Wire Line
 Wire Wire Line
 	3650 2850 4000 2850
 Wire Wire Line
-	3750 2950 4000 2950
+	3450 2950 4000 2950
 Wire Wire Line
-	3750 3050 4000 3050
-Text Label 3750 2950 0    50   ~ 0
-SDA
-Text Label 3750 3050 0    50   ~ 0
-SCL
+	3450 3050 4000 3050
+Text Label 3450 2950 0    50   ~ 0
+STEMMA_SDA
+Text Label 3450 3050 0    50   ~ 0
+STEMMA_SCL
 Wire Wire Line
 	5250 2750 5700 2750
 Wire Wire Line
@@ -939,62 +939,52 @@ Wire Wire Line
 	9250 1050 9250 1150
 Wire Wire Line
 	9250 1150 9600 1150
-Wire Wire Line
-	900  2550 1100 2550
-Wire Wire Line
-	900  2650 1100 2650
-Wire Wire Line
-	900  2750 1100 2750
-Wire Wire Line
-	900  2850 1100 2850
-Wire Wire Line
-	900  2950 1100 2950
-Text Label 900  2550 0    50   ~ 0
+Text Label 750  2550 0    50   ~ 0
 1.10
-Text Label 900  2650 0    50   ~ 0
+Text Label 750  2650 0    50   ~ 0
 1.13
-Text Label 900  2750 0    50   ~ 0
+Text Label 750  2750 0    50   ~ 0
 1.15
-Text Label 900  2850 0    50   ~ 0
+Text Label 750  2850 0    50   ~ 0
 0.02
-Text Label 900  2950 0    50   ~ 0
+Text Label 750  2950 0    50   ~ 0
 0.29
-Text Label 900  3050 0    50   ~ 0
+Text Label 750  3050 0    50   ~ 0
 0.31
-Text Label 1700 2550 0    50   ~ 0
+Text Label 1850 2550 0    50   ~ 0
 0.10
-Text Label 1700 2750 0    50   ~ 0
+Text Label 1850 2750 0    50   ~ 0
 1.00
-Text Label 1700 2850 0    50   ~ 0
+Text Label 1850 2850 0    50   ~ 0
 0.24
-Text Label 1700 2950 0    50   ~ 0
+Text Label 1850 2950 0    50   ~ 0
 0.22
-Text Label 1700 3050 0    50   ~ 0
+Text Label 1850 3050 0    50   ~ 0
 0.20
-Text Label 1700 3150 0    50   ~ 0
+Text Label 1850 3150 0    50   ~ 0
 0.17
-Text Label 1700 3250 0    50   ~ 0
+Text Label 1850 3250 0    50   ~ 0
 0.15
-Text Label 1700 3350 0    50   ~ 0
+Text Label 1850 3350 0    50   ~ 0
 0.13
-Text Label 1700 2650 0    50   ~ 0
+Text Label 1850 2650 0    50   ~ 0
 0.09
 Wire Wire Line
-	1700 2550 2350 2550
+	1850 2550 2500 2550
 Wire Wire Line
-	1700 2650 2350 2650
-Text Label 2350 3250 2    50   ~ 0
+	1850 2650 2500 2650
+Text Label 2500 3250 2    50   ~ 0
 SDA
-Text Label 2350 3350 2    50   ~ 0
+Text Label 2500 3350 2    50   ~ 0
 SCL
 Wire Wire Line
-	1700 3250 2350 3250
+	1850 3250 2500 3250
 Wire Wire Line
-	1700 3350 2350 3350
-Text Label 2350 3150 2    50   ~ 0
+	1850 3350 2500 3350
+Text Label 2500 3150 2    50   ~ 0
 ADC_DRDY
 Wire Wire Line
-	1700 3150 2350 3150
+	1850 3150 2500 3150
 $Comp
 L SM04B-SRSS-TB_LF__SN_:SM04B-SRSS-TB(LF)(SN) J6
 U 1 1 628FEFC9
@@ -1153,22 +1143,22 @@ Text Label 8050 5200 0    50   ~ 0
 LS_A2
 Text Label 8050 5400 0    50   ~ 0
 LS_A4
-Text Label 2350 2750 2    50   ~ 0
+Text Label 2500 2750 2    50   ~ 0
 LS_A1
-Text Label 2350 2950 2    50   ~ 0
+Text Label 2500 2950 2    50   ~ 0
 LS_A3
-Text Label 2350 2850 2    50   ~ 0
+Text Label 2500 2850 2    50   ~ 0
 LS_A2
-Text Label 2350 3050 2    50   ~ 0
+Text Label 2500 3050 2    50   ~ 0
 LS_A4
 Wire Wire Line
-	1700 2750 2350 2750
+	1850 2750 2500 2750
 Wire Wire Line
-	1700 2850 2350 2850
+	1850 2850 2500 2850
 Wire Wire Line
-	1700 2950 2350 2950
+	1850 2950 2500 2950
 Wire Wire Line
-	1700 3050 2350 3050
+	1850 3050 2500 3050
 Wire Wire Line
 	4900 1800 5450 1800
 Wire Wire Line
@@ -1203,18 +1193,13 @@ Wire Wire Line
 Text Label 1500 3050 2    50   ~ 0
 BUTTON
 Wire Wire Line
-	900  3050 1500 3050
+	750  3050 1500 3050
 Text Notes 4550 650  0    50   ~ 0
 nRF52840 Dongle
 Text Notes 7050 650  0    50   ~ 0
 UART
 Text Notes 600  650  0    50   ~ 0
 Power Input
-NoConn ~ 1100 2550
-NoConn ~ 1100 2650
-NoConn ~ 1100 2750
-NoConn ~ 1100 2850
-NoConn ~ 1100 2950
 Wire Notes Line
 	500  3950 11200 3950
 Wire Notes Line
@@ -1319,4 +1304,24 @@ Wire Notes Line
 	9450 2050 9450 3950
 Text Notes 9550 2250 0    50   ~ 0
 Mounting Holes
+Text Label 1500 2750 2    50   ~ 0
+AS7341_EN
+Text Label 1500 2850 2    50   ~ 0
+AS7341_GPIO
+Text Label 1500 2950 2    50   ~ 0
+AS7341_INT
+Wire Wire Line
+	750  2550 1500 2550
+Wire Wire Line
+	750  2650 1500 2650
+Wire Wire Line
+	750  2750 1500 2750
+Wire Wire Line
+	750  2850 1500 2850
+Wire Wire Line
+	750  2950 1500 2950
+Text Label 1500 2550 2    50   ~ 0
+STEMMA_SDA
+Text Label 1500 2650 2    50   ~ 0
+STEMMA_SCL
 $EndSCHEMATC
