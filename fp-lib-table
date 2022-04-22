@@ -8,4 +8,6 @@
   (lib (name TPS7A0233PDBVR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/TPS7A0233PDBVR)(options "")(descr ""))
   (lib (name CUS10S30,H3F)(type KiCad)(uri ${KIPRJMOD}/kicad-library/CUS10S30,H3F)(options "")(descr ""))
   (lib (name "SM04B-SRSS-TB(LF)(SN)")(type KiCad)(uri "${KIPRJMOD}/kicad-library/SM04B-SRSS-TB(LF)(SN)")(options "")(descr ""))
+  (lib (name LMV792MM)(type KiCad)(uri ${KIPRJMOD}/kicad-library/LMV792MM)(options "")(descr ""))
+  (lib (name TXU0204PWR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/TXU0204PWR)(options "")(descr ""))
 )
