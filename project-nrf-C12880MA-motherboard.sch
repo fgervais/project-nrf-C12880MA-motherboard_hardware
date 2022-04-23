@@ -494,9 +494,9 @@ Wire Wire Line
 	7550 1200 7700 1200
 Wire Wire Line
 	7550 1300 7700 1300
-Text Label 2500 2550 2    50   ~ 0
-RX
 Text Label 2500 2650 2    50   ~ 0
+RX
+Text Label 2500 2550 2    50   ~ 0
 TX
 Wire Wire Line
 	3750 2750 4000 2750
@@ -618,7 +618,7 @@ Wire Wire Line
 	1850 3250 2500 3250
 Wire Wire Line
 	1850 3350 2500 3350
-Text Label 2500 3350 2    50   ~ 0
+Text Label 1500 3050 2    50   ~ 0
 ADC_INPUT
 Wire Wire Line
 	1850 3150 2500 3150
@@ -747,7 +747,7 @@ F 3 "" H 4900 1700 50  0001 C CNN
 	1    4900 1700
 	1    0    0    -1  
 $EndComp
-Text Label 1500 3050 2    50   ~ 0
+Text Label 2500 3350 2    50   ~ 0
 BUTTON
 Wire Wire Line
 	750  3050 1500 3050
@@ -1022,11 +1022,11 @@ Wire Wire Line
 	8350 5400 8350 5500
 Wire Wire Line
 	9800 4900 9550 4900
-Text Label 9800 4900 2    50   ~ 0
+Text Label 9800 5000 2    50   ~ 0
 CLK
 Wire Wire Line
 	9800 5000 9550 5000
-Text Label 9800 5000 2    50   ~ 0
+Text Label 9800 4900 2    50   ~ 0
 START
 Text Label 9800 5200 2    50   ~ 0
 EOS
