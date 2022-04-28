@@ -9,4 +9,5 @@
   (lib (name SM04B-SRSS-TB_LF__SN_)(type Legacy)(uri "${KIPRJMOD}/kicad-library/SM04B-SRSS-TB(LF)(SN)/SM04B-SRSS-TB_LF__SN_.lib")(options "")(descr ""))
   (lib (name LMV792MM)(type Legacy)(uri ${KIPRJMOD}/kicad-library/LMV792MM/LMV792MM.lib)(options "")(descr ""))
   (lib (name TXU0204PWR)(type Legacy)(uri ${KIPRJMOD}/kicad-library/TXU0204PWR/TXU0204PWR.lib)(options "")(descr ""))
+  (lib (name LP2985-50DBVR)(type Legacy)(uri ${KIPRJMOD}/kicad-library/LP2985-50/LP2985-50DBVR.lib)(options "")(descr ""))
 )

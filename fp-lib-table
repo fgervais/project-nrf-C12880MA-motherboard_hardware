@@ -10,4 +10,5 @@
   (lib (name "SM04B-SRSS-TB(LF)(SN)")(type KiCad)(uri "${KIPRJMOD}/kicad-library/SM04B-SRSS-TB(LF)(SN)")(options "")(descr ""))
   (lib (name LMV792MM)(type KiCad)(uri ${KIPRJMOD}/kicad-library/LMV792MM)(options "")(descr ""))
   (lib (name TXU0204PWR)(type KiCad)(uri ${KIPRJMOD}/kicad-library/TXU0204PWR)(options "")(descr ""))
+  (lib (name LP2985-50)(type KiCad)(uri ${KIPRJMOD}/kicad-library/LP2985-50)(options "")(descr ""))
 )
